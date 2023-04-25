@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOX ICONS -->
+    <script src="https://kit.fontawesome.com/0bdb460874.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="style.css">
+   
+   
+    <title>Cars Of VEN</title> 
+    
+
+</head>
+<body>  
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="Ford-Mustang .png" alt=""> 
+                    </div>
+                    <p class="descripcion">ford mustang GT 2015 (USADO)</p>
+                    <span class="precio">$ 75.000.000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="bugatti.jpg" alt="">
+                    </div>
+                    <p class="descripcion" id>Bugatti Chiron 2020 (NUEVO) </p>
+                    <span class="precio">$ 400.000 </span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="mercedes .png" alt="">
+                    </div>
+                    <p class="descripcion">BMW COUPE Serie 8 (NUEVO)
+                    </p>
+                    <span class="precio">$ 360.000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="bentley.png" alt="">
+                    </div>
+                    <p class="descripcion">BENTLEY 2019 (NUEVO)</p>
+                    <span class="precio">$150.000</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="rolls royce.png" alt="">
+                    </div>
+                    <p class="descripcion">ROLLS ROYCE 2017(NUEVO)</p>
+                    <span class="precio">$500.000 </span> 
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="renaul.png" alt="">
+                    </div>
+                    <p class="descripcion">RENAULT 2011 (USADO)</p>
+                    <span class="precio">$ 40.000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="ferrari.png" alt="">
+                    </div>
+                    <p class="descripcion">FERRARI 2018 (NUEVO)</p>
+                    <span class="precio">$ 250.000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="mitsubichi.png" alt="">
+                    </div>
+                    <p class="descripcion">MITSUBICHI 2016 (USADO)</p>
+                    <span class="precio">$ 188.000</span>
+                </div>
+            </div> 
+        </div>
+
+        <style >
+            a{
+                display: block;
+                width: 20px;
+                font-family: 700;
+                font-weight: 700;
+                border-radius: 10px; 
+                margin: 50px 30px;
+                padding: 14px 40px ; 
+                color: rgb(243, 8, 0); 
+                text-decoration: none;
+            
+            }
+        </style>
+       
+        <a href="AUTOPARTES.html"  
+        target="_blank"
+        >AUTOPARTES</a>   
+
+
+        <div>
+
+
+            <style >
+                a{
+                    display: block;
+                    width: 20px;
+                    font-family: 700;
+                    font-weight: 700;
+                    border-radius: 10px; 
+                    margin: 50px 30px;
+                    padding: 14px 40px ; 
+                    color: rgb(243, 8, 0); 
+                    text-decoration: none;
+                
+                }
+            </style> 
+           
+           
+            <a href="repuestos.html" 
+            target="_blank"
+            >REPUESTOS</a>  
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="Ford-Mustang .png" alt="" id="img">
+                <h2 id="modelo">GT 2015 rojo </h2>
+                <p id="descripcion"><h3>carros automoviles de la mejor calidad solo en cars of ven</h3>
+                
+               
+                
+
+
+    <script src="inventory.js"></script>
+</body>
+</html>

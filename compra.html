@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra</title>
+    <link rel="stylesheet" href="compra.css">
+</head>
+<body>
+   <br> <h2>Registro de Compra</h2>
+    <form id="compra-form" onsubmit="return validarFormulario()">
+        <div class="form-group">
+          <label for="nombre">Nombre Usuario</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="direccion">Dirección:</label>
+          <input type="text" id="direccion" name="direccion" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="text" id="email" name="email" required>
+        </div>
+      
+        <div class="form-group">
+          <label for="producto">Producto:</label>
+          <select id="producto" name="producto" required>
+            <option value="">Selecciona un producto</option>
+            <option value="producto1">Vehiculo</option>
+            <option value="producto2">Repuestos</option>
+            <option value="producto3">Autopartes</option>
+          </select>
+        </div>
+      
+        <div class="form-group">
+          <label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" name="cantidad" min="1" max="10" required>
+        </div>
+      
+        <div class="form-group">
+          <input type="submit" value="Enviar" href="index.html">
+          
+        
+        </div>
+      </form>
+      <script src="compra.js"></script>
+      <a href="index.html" class="btn">Volver</a>
+</body>
+
+</html>

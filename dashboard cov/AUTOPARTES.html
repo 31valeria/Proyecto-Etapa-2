@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOX ICONS -->
+    <script src="https://kit.fontawesome.com/0bdb460874.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="GG.CSS">
+   
+   
+    <title>Cars Of VEN</title>
+    
+
+</head>
+<body>  
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="neumaticos.png" alt=""> 
+                    </div>
+                    <p class="descripcion">neumaticos (AUTOPARTES)</p>
+                    <span class="precio">$ 150.000</span> 
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="radiador.png" alt="">
+                    </div>
+                    <p class="descripcion" id>radiador (AUTOPARTES)</p>
+                    <span class="precio">$ 400.000 </span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="chasis.png" alt="">
+                    </div>
+                    <p class="descripcion"> chasis (AUTOPARTES)</p>
+                    <span class="precio">$ 360.851</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">  
+                        <img src="motor.png" alt="">
+                    </div>
+                    <p class="descripcion">motor (AUTOPARTES)</p>
+                    <span class="precio">$150.000</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="bateria.png" alt="">
+                    </div>
+                    <p class="descripcion">bateria estandar (AUTOPARTES)</p>
+                    <span class="precio">$500.000 </span> 
+                </div>
+            
+                </div>
+            </div> 
+        </div>
+
+        <style >
+            a{
+                display: block;
+                width: 20px;
+                font-family: 700;
+                font-weight: 700;
+                border-radius: 10px; 
+                margin: 50px 30px;
+                padding: 14px 40px ; 
+                color: rgb(243, 8, 0); 
+                text-decoration: none;
+            
+            }
+        </style>
+       
+        <a href="inventario.html"  
+        target="_blank"
+        >AUTOS</a>  
+
+
+        <div>
+
+
+            <style >
+                a{
+                    display: block;
+                    width: 20px;
+                    font-family: 700;
+                    font-weight: 700;
+                    border-radius: 10px; 
+                    margin: 50px 30px;
+                    padding: 14px 40px ; 
+                    color: rgb(243, 8, 0); 
+                    text-decoration: none;
+                
+                } 
+            </style> 
+           
+           
+            <a href="repuestos.html"  
+            target="_blank"
+            >REPUESTOS</a>  
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div> 
+            <div class="info">
+                <img src="bateria.png" alt="" id="img">  
+                <h2 id="modelo"></h2>  
+                <p id="descripcion"></p><h3>carros automoviles de la mejor calidad solo en cars of ven</h3>
+                
+                
+            </div> 
+                
+               
+                
+
+
+    <script src="GG.JS"></script>  
+</body>
+</html>

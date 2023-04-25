@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOX ICONS -->
+    <script src="https://kit.fontawesome.com/0bdb460874.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="GG.CSS">
+   
+   
+    <title>Cars of ven</title>
+    
+
+</head>
+<body>  
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="neumaticos.png" alt=""> 
+                    </div>
+                    <p class="descripcion">ford mustang GT 2015 (USADO)</p>
+                    <span class="precio">$ 150.000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="radiador.png" alt="">
+                    </div>
+                    <p class="descripcion" id>Bugatti Chiron 2020 (NUEVO) </p>
+                    <span class="precio">$ 400.000 </span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="chasis.png" alt="">
+                    </div>
+                    <p class="descripcion">BMW COUPE Serie 8 (NUEVO)
+                    </p>
+                    <span class="precio">$ 360.851</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="motor.png" alt="">
+                    </div>
+                    <p class="descripcion">BENTLEY 2019 (NUEVO)</p>
+                    <span class="precio">$150.000</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="bateria.png" alt="">
+                    </div>
+                    <p class="descripcion">ROLLS ROYCE 2017(NUEVO)</p>
+                    <span class="precio">$500.000 </span> 
+                </div>
+            
+                </div>
+            </div> 
+        </div>
+
+        <style >
+            a{
+                display: block;
+                width: 20px;
+                font-family: 700;
+                font-weight: 700;
+                border-radius: 10px; 
+                margin: 50px 30px;
+                padding: 14px 40px ; 
+                color: rgb(243, 8, 0); 
+                text-decoration: none;
+            
+            }
+        </style>
+       
+        <a href="inventario.html"  
+        target="_blank"
+        >AUTOS</a>  
+
+
+        <div>
+
+
+            <style >
+                a{
+                    display: block;
+                    width: 20px;
+                    font-family: 700;
+                    font-weight: 700;
+                    border-radius: 10px; 
+                    margin: 50px 30px;
+                    padding: 14px 40px ; 
+                    color: rgb(243, 8, 0); 
+                    text-decoration: none;
+                
+                }
+            </style> 
+           
+           
+            <a href="inventario/inventario.html"  
+            target="_blank"
+            >REPUESTOS</a>  
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">  
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p> 
+                
+               
+                
+
+
+    <script src="GG.JS"></script>  
+</body>
+</html>

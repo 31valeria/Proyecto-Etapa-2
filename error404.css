@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, #ff9966 3%, #ff3300 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Yellowtail', cursive;
+}
+img{
+    width: 50%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+button{
+    padding:15px 30px ;
+    border-radius: 15px;
+    border: none;
+    background: #000;
+    color: white;
+}
+@media screen and(max-windth:630px) {
+    h1{
+        font-size: 16px;
+    }
+}

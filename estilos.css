@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(img/ima.png); 
+    background-size: cover;
+   background-attachment: fixed;
+   background: linear-gradient(to bottom, #ffffcc 3%, #ff3300 100%); 
+   
+}
+.login-bo{
+    width: 500px;
+    height: 500px;
+    color: #fff;
+    top: 55%;
+    left: 55%;
+    position: absolute;
+    transform: translate(-30%, -65%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.login-bo.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -50px) ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor{
+    border: 8px;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 15px;
+    width: 100%;
+}
+.input-contenedor.success input{
+    border-color: #2ecc71;
+}
+.input-contenedor.error input{
+    border-color:#ff3300 ;
+}
+.input-contenedor i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+
+}
+.input-contenedor.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+} 
+.input-contenedor.success i.fa-exclamation-circle{
+    color: #e74c3c;
+    position: visible;
+   
+}
+.input-contenedor small {
+    color: #e74c3c;
+    position: absolute ;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.input-contenedor.error small{
+    visibility: visible;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #000;
+    padding:  15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botton:hover {
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration:none;
+    color: #000;
+    font-weight: 600;
+}
+.link:hover{
+    color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
